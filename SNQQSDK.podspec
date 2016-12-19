@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source       = { :git => "https://github.com/iOSBoy/SNQQSDK.git", :tag => s.version.to_s}
   s.frameworks       = 'Security', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics'
+  s.libraries = 'z','c++'
   s.resources    = 'SDK/TencentOpenApi_IOS_Bundle.bundle'
   s.vendored_frameworks = 'SDK/TencentOpenAPI.framework'
-  s.public_header_files = 'SDK/TencentOpenAPI.framework/Headers/*.h'
 end
