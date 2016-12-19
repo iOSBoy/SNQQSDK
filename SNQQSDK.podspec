@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.frameworks       = 'Security', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics'
   s.resources    = 'SDK/TencentOpenApi_IOS_Bundle.bundle'
   s.vendored_frameworks = 'SDK/TencentOpenAPI.framework'
-  s.public_header_files = 'SDK/TencentOpenAPI.framework/Headers/**/*.h'
+  s.public_header_files = 'SDK/TencentOpenAPI.framework/Headers/*.h'
 end
